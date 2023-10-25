@@ -64,7 +64,6 @@ section h2 {
     background: url(IMG_5086.jpeg);
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
   }
   100% {
     opacity: 1;
@@ -72,7 +71,6 @@ section h2 {
     background: url(IMG_5086.jpeg);
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
   }
 
 }
