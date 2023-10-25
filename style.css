@@ -58,6 +58,9 @@ section h2 {
   0% {
     opacity: 0;
     transform: scale(0) translateY(1000px);
+    background: url(IMG_5086.jpeg);
+    background-position: center;
+    background-attachment: fixed;
   }
   50% {
     opacity: 1;
