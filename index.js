@@ -20,5 +20,13 @@ window.onmousemove = e => {
   Math.max(nextPercentage, -100);
 
   track.dataset.percentage = nextPercentage;
-  track.style.transform = `translate(${nextPercentage}%, -50%)`;
+    track.animate({
+      transform: `translate(${nextPercentage}%, -50%)`
+    }, { duration: 1200, fill: "forwards" });
+  
+  for (const image of track.getElementsByClassName("image")) {
+    image.animate({
+      objectPosition: `${nextPercentage + 100}% center`
+    }, { duration: 1200, fill: "forwards" });
+  }
 }
