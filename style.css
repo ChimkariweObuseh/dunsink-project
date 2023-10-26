@@ -11,6 +11,9 @@ body {
   height: 56vmin;
   object-fit: cover;
   object-position: center;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: all 0.3s ease-in-out;
 }
 
 #image-track {
